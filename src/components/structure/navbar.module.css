@@ -1,0 +1,62 @@
+.navbar {
+    background-image: url('./navbarbackground.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+.logoContainer {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 40px;
+    width: 55px;
+    padding: 2px;
+}
+
+.brand {
+    color: black !important;
+    font-weight: bold;
+    text-decoration: none !important;
+    font-size: 20px;
+}
+
+.navbarNav {
+    display: flex;
+    margin-right: 80px;
+}
+
+.navItem {
+    list-style-type: none;
+    margin-left: 20px;
+}
+
+.navLink {
+    color: black !important;
+    position: relative;
+    text-decoration: none !important;
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 8px;
+}
+
+
+
+.navLink:hover::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    height: 8px;
+    width: 100%;
+    background-color: orange;
+}
