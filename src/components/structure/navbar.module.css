@@ -1,8 +1,8 @@
 .navbar {
-    background-image: url('./navbarbackground.jpeg');
+    background-image: url('./navbarbackground.avif');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: bottom;
 }
 
 .container {
