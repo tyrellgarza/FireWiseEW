@@ -1,0 +1,13 @@
+.box {
+    background-color: rgba(211, 211, 211, 0.7);
+    border-radius: 15px;
+    padding: 20px;
+    font-size: 1.2rem;
+    text-align: top left;
+    max-width: 700px;
+    margin-bottom: 20px;
+  }
+  
+  .resourceDesc {
+    font-size: 1.1rem;
+  }
