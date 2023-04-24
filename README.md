@@ -6,19 +6,23 @@
 Firewise EW is a INFO 442 project designed to address the UN's Sustainable Development (SDG)
 #12: Sustainable Cities and Communities.
 
-## Problem Statement:
+### Problem Statement:
 How might we help renters or homeowners within Eastern Washington
 educate themselves regarding prevention and mitigation strategies against wildfires
 in order for them to be better prepared?
-## About Us
+## About US:
+The Green Dream Team is on a mission to provide residents of Eastern Washington with resources
+they can access in the event of a wildfire. Through our project, Firewise EW, we are committed
+to providing an easy to understand resource that allows these residents to be better prepared against
+wildfires.
 
 ## Features
 
-# Getting Started with Create React App
+### Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+### Available Scripts
 
 In the project directory, you can run:
 
