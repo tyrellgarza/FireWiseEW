@@ -1,3 +1,19 @@
+# The Green Dream Team
+
+## Created by: Anokhi Shah, Tyrell Garza, Fatima Laghari, Dellina Gebrehiwot, Kathy Thin
+
+## Introduction
+Firewise EW is a INFO 442 project designed to address the UN's Sustainable Development (SDG)
+#12: Sustainable Cities and Communities.
+
+## Problem Statement:
+How might we help renters or homeowners within Eastern Washington
+educate themselves regarding prevention and mitigation strategies against wildfires
+in order for them to be better prepared?
+## About Us
+
+## Features
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
