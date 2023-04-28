@@ -1,6 +1,6 @@
 import React from 'react';
 import './aboutus.css';
-
+/** About us section */
 const AboutUs = () => {
   return (
     <div classname="about-us">
@@ -11,6 +11,7 @@ const AboutUs = () => {
       <h1>The team</h1>
         <div id="allmembers">
           <div className="member">
+           <img src="/images/AnokhiShah.jpeg" alt="Team Member Anokhi Shah"></img>
             <h2>Anokhi Shah</h2>
           </div>
           <div className="member">
