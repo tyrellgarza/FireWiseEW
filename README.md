@@ -10,13 +10,18 @@ Firewise EW is a INFO 442 project designed to address the UN's Sustainable Devel
 How might we help renters or homeowners within Eastern Washington
 educate themselves regarding prevention and mitigation strategies against wildfires
 in order for them to be better prepared?
-## About Us:
+
+## Our Mission:
 The Green Dream Team is on a mission to provide residents of Eastern Washington with resources
 they can access in the event of a wildfire. Through our project, Firewise EW, we are committed
 to providing an easy to understand resource that allows these residents to be better prepared against
 wildfires.
 
 ## Features
+- Interactive timeline that showcases the different fires that have taken place over 2017-2022
+- Embedded-interactive map that showcases the air quality within Eastern Washington
+- Information of previous fires to provide insight to the problem
+- Resources to ensure better preparation for wildfires
 
 ### Getting Started with Create React App
 
