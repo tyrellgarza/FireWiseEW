@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import './homepage.css';
-// repo test
+
 const HomePage = () => {
   useEffect(() => {
     const video = document.createElement('video');
@@ -28,7 +28,7 @@ const HomePage = () => {
       <h1 className="title">Welcome to FirewiseEW</h1>
       <div className="description">
         <p>
-          FirewiseEW offers comprehensive insights of wildfires occuring in the Eastern Washington 
+          FirewiseEW offers comprehensive insights of wildfires occuring in the Eastern Washington
           region, featuring valuable resources, in-depth analysis of wildfire
           impacts, and an timeline documenting the region's fire history.
         </p>

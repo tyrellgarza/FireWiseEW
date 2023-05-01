@@ -35,13 +35,17 @@
 #allmembers {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between; /* or any other value as per your requirements */
-  align-items: center; /* or any other value as per your requirements */
+  justify-content: space-between;
+  /* or any other value as per your requirements */
+  align-items: center;
+  /* or any other value as per your requirements */
 }
 
 .member {
-  flex-basis: calc(20% - 20px); /* or any other value as per your requirements */
-  margin-bottom: 20px; /* or any other value as per your requirements */
+  flex-basis: calc(20% - 20px);
+  /* or any other value as per your requirements */
+  margin-bottom: 20px;
+  /* or any other value as per your requirements */
   text-align: center;
 }
 
@@ -49,7 +53,10 @@
   display: block;
   max-width: 100%;
   height: auto;
-  margin: 0 auto 5px; /* or any other value as per your requirements */
-  border-radius: 10%; /* or any other value as per your requirements */
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); /* or any other value as per your requirements */
+  margin: 0 auto 5px;
+  /* or any other value as per your requirements */
+  border-radius: 10%;
+  /* or any other value as per your requirements */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  /* or any other value as per your requirements */
 }
