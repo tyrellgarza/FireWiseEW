@@ -1,9 +1,9 @@
-# The Green Dream Team
+# The Green Dream Team | Firewise EW
 
 ## Created by: Anokhi Shah, Tyrell Garza, Fatima Laghari, Dellina Gebrehiwot, Kathy Thin
 
 ## Introduction
-Firewise EW is a INFO 442 project designed to address the UN's Sustainable Development (SDG)
+Firewise EW is a project created by INFO 442 students designed to address the UN's Sustainable Development (SDG)
 #12: Sustainable Cities and Communities.
 
 ### Problem Statement:
@@ -12,16 +12,16 @@ educate themselves regarding prevention and mitigation strategies against wildfi
 in order for them to be better prepared?
 
 ## Our Mission:
-The Green Dream Team is on a mission to provide residents of Eastern Washington with resources
+The Green Dream Team is on a mission to provide residents of Eastern Washington information and resources
 they can access in the event of a wildfire. Through our project, Firewise EW, we are committed
 to providing an easy to understand resource that allows these residents to be better prepared against
 wildfires.
 
-## Features
-- Interactive timeline that showcases the different fires that have taken place over 2017-2022
-- Embedded-interactive map that showcases the air quality within Eastern Washington
-- Information of previous fires to provide insight to the problem
-- Resources to ensure better preparation for wildfires
+## Key Features
+- Interactive timeline that showcases the different wildfires that have taken place over 2017-2022.
+- Embedded-interactive map that showcases the air quality within Eastern Washington.
+- Information of previous fires to provide insight to the problem.
+- Additional resources and fundraising opportunities to ensure better preparation for wildfires.
 
 ### Getting Started with Create React App
 
