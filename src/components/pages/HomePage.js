@@ -4,7 +4,7 @@ import './homepage.css';
 const HomePage = () => {
   useEffect(() => {
     const video = document.createElement('video');
-    video.src = '/backgroundvideo.mp4';
+    video.src = '/wildfirevideo.mp4';
     video.type = 'video/mp4';
     video.loop = true;
     video.muted = true;
