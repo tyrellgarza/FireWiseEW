@@ -55,7 +55,7 @@ const ResourcePage = () => {
       <div className="container">
         <h1>Wildfire Resources</h1>
         <p> <strong> 
-          These websites mentioned in this section serve as valuable resources for individuals seeking information and resources related to wildfires. They offer a range of information and tools to help people prepare for, respond to, and stay safe during wildfire events.
+          These websites mentioned in this section serves as a valuable resources for individuals seeking information and resources related to wildfires. They offer a range of information and tools to help people prepare for, respond to, and stay safe during wildfire events.
         </strong> </p>
         <br></br>
 
@@ -105,7 +105,10 @@ const ResourcePage = () => {
         </p>
 
         <br></br>
-        <h1>Brochures:</h1>
+        <h1>Brochures</h1>
+        <p> <strong> 
+          The brochure section is a collection of useful and informative materials to store at your home. It is designed to provide a concise overview of ways to reduce the risk, protect yourself and property during a wildfire...
+        </strong> </p><br></br>
         <div className="brochures-container">
           {populateBrochures()}
         </div>
