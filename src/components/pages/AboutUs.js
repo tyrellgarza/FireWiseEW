@@ -7,13 +7,13 @@ const AboutUs = () => {
     <div classname="about-us">
       <div id="left">
         <div id="header">
-        <h1>Why we are doing this?</h1>
+          <h1>Why we are doing this?</h1>
         </div>
         <p> We believe that residents of Eastern Washington can benefit from
-            a resource like this in times of peril. Being a region particularly
-            prone to wildfires, which are often unpredictable and destructive.
-            In recent years, the incidence and intensity of wildfires in this region
-            have been on the rise.
+          a resource like this in times of peril. Being a region particularly
+          prone to wildfires, which are often unpredictable and destructive.
+          In recent years, the incidence and intensity of wildfires in this region
+          have been on the rise.
         </p>
       </div>
 

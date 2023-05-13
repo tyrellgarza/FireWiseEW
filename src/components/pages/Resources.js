@@ -54,8 +54,8 @@ const ResourcePage = () => {
     <div>
       <div className="container">
         <h1>Wildfire Resources</h1>
-        <p> <strong> 
-          These websites mentioned in this section serves as a valuable resources for individuals seeking information and resources related to wildfires. They offer a range of information and tools to help people prepare for, respond to, and stay safe during wildfire events.
+        <p> <strong>
+          These websites mentioned in this section serve as valuable resources for individuals seeking information and resources related to wildfires. They offer a wide range of information and tools to help people prepare for, respond to, and stay safe during wildfire events.
         </strong> </p>
         <br></br>
 
@@ -63,7 +63,7 @@ const ResourcePage = () => {
         <a href="https://www.nifc.gov/fire-information">
           Click here for more information!
         </a> <br></br>
-        <img src="/images/NationalInteragencyFireCenterIMG.jpg" alt="Preparedness Levels" style={{ width: '650px'}}></img>
+        <img src="/images/NationalInteragencyFireCenterIMG.jpg" alt="Preparedness Levels" style={{ width: '650px' }}></img>
         <p>
           National Interagency Fire Center (NIFC), establishes Preparedness Levels
           throughout the calendar year to ensure suppression resource availability
@@ -74,9 +74,9 @@ const ResourcePage = () => {
 
         <h2>Washington Smoke Information:</h2>
         <a href="https://wasmoke.blogspot.com/">
-        Click here for more information!
+          Click here for more information!
         </a> <br></br>
-        <img src="/images/waSmokeInfo.jpg" alt="WA Smoke Information" style={{ width: '650px'}}></img>
+        <img src="/images/waSmokeInfo.jpg" alt="WA Smoke Information" style={{ width: '650px' }}></img>
         <p>
           This website provides real-time air quality information for Washington
           state, including Eastern Washington. It also provides information on
@@ -85,9 +85,9 @@ const ResourcePage = () => {
 
         <h2>Ready.gov Wildfires Preparedness:</h2>
         <a href="https://www.ready.gov/wildfires">
-        Click here for more information!
+          Click here for more information!
         </a><br></br>
-        <img src="/images/wildfiresReady.jpg" alt="Evacuation Illustration" style={{ width: '650px'}}></img>
+        <img src="/images/wildfiresReady.jpg" alt="Evacuation Illustration" style={{ width: '650px' }}></img>
         <p>
           This website provides information on how to prepare for and respond to
           wildfires, including those in Eastern Washington. It includes tips on
@@ -97,16 +97,16 @@ const ResourcePage = () => {
 
         <h2>American Red Cross Wildfire Safety:</h2>
         <a href="https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/wildfire.html">
-        Click here for more information!
+          Click here for more information!
         </a> <br></br>
-        <iframe title="vimeo-player" src="https://player.vimeo.com/video/496965172?h=fd1f8b94e6" width="640" height="360" frameborder="0"    allowfullscreen></iframe>
+        <iframe title="vimeo-player" src="https://player.vimeo.com/video/496965172?h=fd1f8b94e6" width="640" height="360" frameborder="0" allowfullscreen></iframe>
         <p>
           The webpage focuses on wildfires, providing information and resources for preparing, responding to, and recovering from these destructive emergencies. It covers topics like creating an emergency plan, wildfire safety tips, evacuation procedures, and reducing wildfire risk.
         </p>
 
         <br></br>
         <h1>Brochures</h1>
-        <p> <strong> 
+        <p> <strong>
           The brochure section is a collection of useful and informative materials to store at your home. It is designed to provide a concise overview of ways to reduce the risk, protect yourself and property during a wildfire...
         </strong> </p><br></br>
         <div className="brochures-container">
