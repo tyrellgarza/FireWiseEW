@@ -1,3 +1,60 @@
 .content {
   padding: 40px;
 }
+
+/* #timeline {
+  position: relative;
+  height: 500px;
+}
+
+.timeline-event {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  border-bottom: 1px solid #ccc;
+} */
+
+#timeline {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.timeline-event {
+  flex: 1;
+  margin: 10px;
+  padding: 20px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.event-date {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.event-description {
+  font-size: 14px;
+}
+
+.info.hidden {
+  display: none;
+}
+
+.info.active {
+  height: 200px;
+  background-color: #f8f8f8;
+}
+
+.timeline-event.active {
+  height: 200px;
+  background-color: #f8f8f8;
+}
+
+.event-description.hidden {
+  display: none;
+}
