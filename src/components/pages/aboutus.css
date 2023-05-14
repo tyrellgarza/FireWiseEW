@@ -8,29 +8,6 @@
   float: right;
 }
 
-/* .about-container {
-  position: relative;
-  width: 200px;
-  height: 250px;
-  margin-right: 10px;
-} */
-
-/* #allmembers {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
-.member {
-  margin: 10px;
-  text-align: center;
-} */
-
-/* #allmembers img {
-  width: 20%;
-  height: 10%;
-} */
 p {
     background-color: #f2f2f2; /* grey background color */
     width: 100%; /* container spans half of the page */
@@ -46,16 +23,13 @@ p {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  /* or any other value as per your requirements */
   align-items: center;
-  /* or any other value as per your requirements */
+
 }
 
 .member {
-  flex-basis: calc(20% - 20px);
-  /* or any other value as per your requirements */
+  flex-basis: calc(35% - 20px);
   margin-bottom: 20px;
-  /* or any other value as per your requirements */
   text-align: center;
 }
 
@@ -70,3 +44,5 @@ p {
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
   /* or any other value as per your requirements */
 }
+
+
