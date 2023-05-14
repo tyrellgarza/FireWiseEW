@@ -9,14 +9,22 @@
 }
 
 p {
-    background-color: #f2f2f2; /* grey background color */
-    width: 100%; /* container spans half of the page */
-    float: none; /* aligns container to the left */
-    padding: 20px; /* adds padding inside the container */
-    box-sizing: border-box; /* includes padding in the container's width */
-    color: #000; /* black text color */
-    font-size: 16px; /* font size of paragraph text */
-    line-height: 1.5; /* line height of paragraph text */
+  background-color: #f2f2f2;
+  /* grey background color */
+  width: 100%;
+  /* container spans half of the page */
+  float: none;
+  /* aligns container to the left */
+  padding: 20px;
+  /* adds padding inside the container */
+  box-sizing: border-box;
+  /* includes padding in the container's width */
+  color: #000;
+  /* black text color */
+  font-size: 16px;
+  /* font size of paragraph text */
+  line-height: 1.5;
+  /* line height of paragraph text */
 }
 
 #allmembers {
@@ -43,6 +51,10 @@ p {
   /* or any other value as per your requirements */
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
   /* or any other value as per your requirements */
+<<<<<<< HEAD
 }
 
 
+=======
+}
+>>>>>>> 6ac2f5803346086ed47d035c69c8badb5ced8225

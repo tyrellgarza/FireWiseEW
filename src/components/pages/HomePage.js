@@ -30,7 +30,7 @@ const HomePage = () => {
         <p>
           FirewiseEW offers comprehensive insights of wildfires occuring in the Eastern Washington
           region, featuring valuable resources, in-depth analysis of wildfire
-          impacts, and an timeline documenting the region's fire history.
+          impacts, and a timeline documenting the region's fire history.
         </p>
       </div>
       <div className="map-container">
