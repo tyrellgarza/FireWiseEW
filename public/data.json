@@ -43,6 +43,13 @@
         {
             "year": 2019,
             "fires": [
+                {
+                    "name": "243 Command Fire",
+                    "start_date": "2019-06-03",
+                    "location": "Grant County",
+                    "acres_burned": "5000+",
+                    "impact": "Mandatory evacuations near Beverly, making Spokane’s air quality the worst in the United States."
+                }
               
             ]
         },

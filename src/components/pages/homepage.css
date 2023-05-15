@@ -1,3 +1,7 @@
+body {
+  overflow: hidden;
+}
+
 .background-video {
   position: fixed;
   top: 0;
@@ -34,8 +38,8 @@
   background-color: rgba(211, 211, 211, 0.7);
   border-radius: 15px;
   padding: 20px;
-  font-size: 1.4rem;
-  text-align: top left;
+  font-size: 1rem;
+  text-align: left;
   max-width: 700px;
   margin-bottom: 10px;
 }
@@ -50,104 +54,7 @@
 }
 
 .map {
-  width: 85%;
+  width: 80%;
   height: 90%;
   border: none;
-}
-
-@media (min-width: 576px) {
-  .content {
-    padding-left: 20px;
-    padding-top: 100px;
-  }
-
-  .title {
-    font-size: 1.8rem;
-  }
-
-  .description {
-    font-size: 1rem;
-  }
-
-  .map-container {
-    height: 50%;
-    width: 30%;
-    position: fixed;
-    top: 10%;
-    right: 0;
-    padding-top: 50px;
-  }
-}
-
-@media (min-width: 768px) {
-  .content {
-    padding-left: 40px;
-    padding-top: 120px;
-  }
-
-  .title {
-    font-size: 2rem;
-  }
-
-  .description {
-    font-size: 1rem;
-  }
-
-  .map-container {
-    height: 55%;
-    width: 35%;
-    position: fixed;
-    top: 10%;
-    right: 0;
-    padding-top: 60px;
-  }
-}
-
-@media (min-width: 992px) {
-  .content {
-    padding-left: 80px;
-    padding-top: 150px;
-  }
-
-  .title {
-    font-size: 3rem;
-  }
-
-  .description {
-    font-size: 1rem;
-  }
-
-  .map-container {
-    height: 70%;
-    width: 48%;
-    position: fixed;
-    top: 10%;
-    right: 0;
-    padding-top: 70px;
-  }
-}
-
-@media (min-width: 1200px) {
-  .content {
-    padding-left: 30px;
-    padding-top: 200px;
-  }
-
-  .title {
-    font-size: 3rem;
-    padding-left: 60px;
-  }
-
-  .description {
-    font-size: 1rem;
-  }
-
-  .map-container {
-    height: 75%;
-    width: 50%;
-    position: fixed;
-    top: 10%;
-    right: 0;
-    padding-top: 80px;
-  }
 }
