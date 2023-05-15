@@ -1,6 +1,7 @@
-/* body {
+body.no-scroll {
   overflow: hidden;
-} */
+}
+
 
 .background-video {
   position: fixed;
@@ -23,6 +24,7 @@
   height: 100vh;
   padding-left: 40px;
   padding-bottom: 200px;
+  overflow: hidden;
 }
 
 .title {
@@ -58,3 +60,4 @@
   height: 90%;
   border: none;
 }
+

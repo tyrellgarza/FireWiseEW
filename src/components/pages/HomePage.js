@@ -17,9 +17,11 @@ const HomePage = () => {
     });
 
     document.body.appendChild(video);
+    document.body.classList.add('no-scroll'); // Add the no-scroll class to body
 
     return () => {
       document.body.removeChild(video);
+      document.body.classList.remove('no-scroll'); // Remove the no-scroll class from body
     };
   }, []);
 
