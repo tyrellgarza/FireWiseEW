@@ -1,19 +1,36 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import './impact.css';
 
+const Year = ({ data }) => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  return (
+    <div className='year'>
+      <button onClick={() => setIsOpen(!isOpen)}>
+        {data.year}
+      </button>
+      {isOpen && data.fires.map((fire, index) => (
+        <div key={index} className='fire'>
+          <h2>{fire.name}</h2>
+          <p>Start date: {fire.start_date}</p>
+          <p>Location: {fire.location}</p>
+          <p>Acres burned: {fire.acres_burned}</p>
+          <p>Impact: {fire.impact}</p>
+        </div>
+      ))}
+    </div>
+  );
+};
 
 const Impact = () => {
-  // Get all timeline events
-  const timelineEvents = document.querySelectorAll('.timeline-event');
+  const [data, setData] = useState(null);
 
-  // Add click event listener to each event
-  timelineEvents.forEach(event => {
-    event.addEventListener('click', () => {
-      // Toggle active class to show/hide event details
-      const description = event.querySelector('.info');
-      description.classList.toggle('hidden');
-    });
-  });
+  useEffect(() => {
+    // Fetch the data from the JSON file
+    fetch('/data.json')
+      .then(response => response.json())
+      .then(data => setData(data.wildfires));
+  }, []);
 
   return (
     <div className="content">
@@ -25,36 +42,8 @@ const Impact = () => {
       <div className="section-timeline">
         <h1>Biggest Wildfires to Date in Eastern Washington</h1>
         <div id="timeline">
-          <div class="timeline-event">
-            <div class="event-date">2017</div>
-            <div class="event-description">Test 1</div>
-            <div className='info'>
-              <p>this is a test</p>
-            </div>
-          </div>
-          <div class="timeline-event">
-            <div class="event-date">2018</div>
-            <div class="event-description">info</div>
-          </div>
-          <div class="timeline-event">
-            <div class="event-date">2019</div>
-            <div class="event-description">info</div>
-          </div>
-          <div class="timeline-event">
-            <div class="event-date">2020</div>
-            <div class="event-description">info</div>
-          </div>
-          <div class="timeline-event">
-            <div class="event-date">2021</div>
-            <div class="event-description">info</div>
-          </div>
-          <div class="timeline-event">
-            <div class="event-date">2022</div>
-            <div class="event-description">info</div>
-          </div>
-
+          {data && data.map((year, index) => <Year key={index} data={year} />)}
         </div>
-
       </div>
       <div className="section-funding">
         <h1>Fundraising and Donation Opportunities</h1>

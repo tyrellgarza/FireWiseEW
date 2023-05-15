@@ -24,7 +24,7 @@ const HomePage = () => {
   }, []);
 
   return (
-    <div className="content">
+    <div className="homecontent">
       <h1 className="title">Welcome to FirewiseEW</h1>
       <div className="description">
         <p>

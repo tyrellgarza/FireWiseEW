@@ -1,0 +1,135 @@
+{
+    "wildfires": [
+        {
+            "year": 2017,
+            "fires": [
+                {
+                    "name": "Diamond Creek Fire",
+                    "start_date": "2017-07-22",
+                    "location": "Okanogan-Wenatchee National Forest",
+                    "duration_months": 4,
+                    "acres_burned": 127000,
+                    "impact": "Destroyed several homes and other structures, significant economic losses to the agricultural industry, displaced residents, significant impact on air quality."
+                },
+                {
+                    "name": "Jolly Mountain Fire",
+                    "start_date": "2017-08-11",
+                    "location": "Cle Elum",
+                    "acres_burned": 36000,
+                    "impact": "Caused evacuations and road closures in the area."
+                },
+                {
+                    "name": "Uno Peak Fire",
+                    "start_date": "2017-08-30",
+                    "location": "Manson",
+                    "acres_burned": 8500,
+                    "impact": "Threatened homes and structures in the area."
+                },
+                {
+                    "name": "Diamond Butte Fire",
+                    "start_date": "2017-09-03",
+                    "location": "Bridgeport",
+                    "acres_burned": 16000,
+                    "impact": "Caused evacuations and road closures in the area."
+                }
+            ]
+        },
+        {
+            "year": 2018,
+            "fires": [
+               
+            ]
+        },
+        {
+            "year": 2019,
+            "fires": [
+              
+            ]
+        },
+        {
+            "year": 2020,
+            "fires": [
+                {
+                    "name": "Apple Acres Fire",
+                    "start_date": "2020-09-07",
+                    "location": "Chelan County",
+                    "acres_burned": 5500,
+                    "impact": "Evacuation orders were issued, caused unhealthy air quality conditions."
+                },
+                {
+                    "name": "Pearl Hill Fire",
+                    "start_date": "2020-09-07",
+                    "location": "Douglas County",
+                    "acres_burned": 223730,
+                    "impact": "Destroyed multiple structures, caused evacuations and road closures."
+                },
+                {
+                    "name": "Cold Springs Fire",
+                    "start_date": "2020-09-06",
+                    "location": "Okanogan County",
+                    "acres_burned": 189923,
+                    "impact": "Evacuations and road closures were ordered, caused significant property damage."
+                }
+            ]
+        },
+        {
+            "year": 2021,
+            "fires": [
+                {
+                    "name": "Cub Creek 2 Fire",
+                    "start_date": "2021-07-16",
+                    "location": "Methow Valley",
+                    "acres_burned": 70000,
+                    "impact": "Threatened homes, caused evacuations and road closures."
+                },
+                {
+                    "name": "Cedar Creek Fire",
+                    "start_date": "2021-07-08",
+                    "location": "Okanogan County",
+                    "acres_burned": 55022,
+                    "impact": "Caused evacuations and road closures, impacted air quality in the region."
+                },
+                {
+                    "name": "Red Apple Fire",
+                    "start_date": "2021-07-13",
+                    "location": "Wenatchee",
+                    "acres_burned": 12000,
+                    "impact": "Threatened homes and orchards, caused evacuations and road closures."
+                }
+            ]
+        },
+        {
+            "year": 2022,
+            "fires": [
+                {
+                    "name": "Stayman Flats Fire",
+                    "start_date": "2022-07-08",
+                    "end_date": "2022-07-21",
+                    "location": "Chelan",
+                    "acres_burned": 500,
+                    "impact": "Led to a Level 3 evacuation order for some residents."
+                },
+                {
+                    "name": "Keremeos Creek Wildfire",
+                    "start_date": "2022-08-04",
+                    "location": "Central Washington",
+                    "acres_burned": 25000,
+                    "impact": "Caused smoke to spread across the state."
+                },
+                {
+                    "name": "White River Fire",
+                    "start_date": "2022-08-15",
+                    "location": "Wenatchee Ridge",
+                    "impact": "Significant amount of smoke affecting Leavenworth, Cashmere, and Wenatchee. Chelan County issued a Level 3 evacuation order."
+                },
+                {
+                    "name": "Cow Canyon Fire",
+                    "start_date": "2022-08-04",
+                    "location": "South of Cheney",
+                    "acres_burned": 2000,
+                    "impact": "Grew quickly due to dry conditions."
+                }
+            ]
+        }
+    ]
+}
