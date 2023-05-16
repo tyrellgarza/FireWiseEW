@@ -1,5 +1,5 @@
 .about-us-page {
-  background: url(/public/images/aboutbackground.jpg) no-repeat center center fixed; 
+  background: url(/public/images/aboutbackground.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -32,6 +32,7 @@ p {
   border-radius: 15px;
 
 }
+
 .center-container {
   display: flex;
   flex-direction: column;
@@ -40,7 +41,8 @@ p {
 }
 
 .centered-block {
-  max-width: 80%; /* Adjust this value to your liking */
+  max-width: 80%;
+  /* Adjust this value to your liking */
 }
 
 #allmembers {
@@ -51,7 +53,7 @@ p {
 }
 
 .member {
-  flex-basis: calc(33.33% - 20px); 
+  flex-basis: calc(33.33% - 20px);
   margin-bottom: 20px;
   text-align: center;
 }
@@ -63,7 +65,7 @@ p {
 
 .member img {
   display: block;
-  max-width: 100%; 
+  max-width: 100%;
   height: auto;
   margin: 0 auto 5px;
   border-radius: 10%;
@@ -91,4 +93,3 @@ p {
   color: #ff6600;
   text-shadow: 2px 2px 4px #000000;
 }
-

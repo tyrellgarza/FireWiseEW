@@ -47,9 +47,15 @@ const Impact = () => {
       </div>
       <div className="section-funding">
         <h1>Fundraising and Donation Opportunities</h1>
+        <p> There are a number of fundraising and donation resources to help support the impact of Eastern Washington wildfires.
+          Listed below are funding opportutnities to help rebuild and restore affected communities.
+        </p>
       </div>
     </div>
   );
 };
 
 export default Impact;
+
+/* https://www.gofundme.com/c/act/wildfire-relief/washington
+https://www.redcross.org/local/washington/about-us/our-work/western-wildfires.html */
