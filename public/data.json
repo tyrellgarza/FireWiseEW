@@ -6,7 +6,7 @@
                 {
                     "name": "Diamond Creek Fire",
                     "start_date": "2017-07-22",
-                    "location": "Okanogan-Wenatchee National Forest",
+                    "location": "Okanogan-Wenatchee National Forest, WA",
                     "duration_months": 4,
                     "acres_burned": 127000,
                     "impact": "Destroyed several homes and other structures, significant economic losses to the agricultural industry, displaced residents, significant impact on air quality."
@@ -14,21 +14,21 @@
                 {
                     "name": "Jolly Mountain Fire",
                     "start_date": "2017-08-11",
-                    "location": "Cle Elum",
+                    "location": "Cle Elum, WA",
                     "acres_burned": 36000,
                     "impact": "Caused evacuations and road closures in the area."
                 },
                 {
                     "name": "Uno Peak Fire",
                     "start_date": "2017-08-30",
-                    "location": "Manson",
+                    "location": "Manson, WA",
                     "acres_burned": 8500,
                     "impact": "Threatened homes and structures in the area."
                 },
                 {
                     "name": "Diamond Butte Fire",
                     "start_date": "2017-09-03",
-                    "location": "Bridgeport",
+                    "location": "Bridgeport, WA",
                     "acres_burned": 16000,
                     "impact": "Caused evacuations and road closures in the area."
                 }
@@ -37,7 +37,34 @@
         {
             "year": 2018,
             "fires": [
-               
+                {
+                    "name": "The Ryegrass Coulee Fire",
+                    "start_date": "2018-07-27",
+                    "location": "Kittitas County. WA",
+                    "acres_burned": 6259,
+                    "impact": "The fire burned dry conditions of grass, sagebrush, and timberland. It led to the closure of I-90 for a couple of weeks causing signficant travel disruptions."
+                },
+                {
+                    "name": "Milepost 90 Fire",
+                    "start_date": "2018-07-31",
+                    "location": "Clark / Skamania / Klickitat Counties, WA",
+                    "acres_burned": 20000,
+                    "impact": "Resulted in the closure of interstate 90. Smoke created hazardous air quality conidtions along the Columbia River and the gorge.  Evacuation orders were issued to nearby residents and the affected section of Interstate 90 was closed."
+                },
+                {
+                    "name": "The Cougar Creek Fire",
+                    "start_date": "2018-08-10",
+                    "location": "Chelan County, WA",
+                    "acres_burned": "42,712",
+                    "impact": "The fire burned 42,712 acres of timberland in Chelan County, Washington. Evacuation orders were issued for several areas, and several homes were destroyed. The fire was fully contained on October 10, 2018."
+                },
+                {
+                    "name": "The Vulcan Mountain Fire",
+                    "start_date": "2018-10-11",
+                    "location": "Okanogan County, WA",
+                    "acres_burned": "19,386",
+                    "impact": "Evacuation orders were issued for several areas, and one outbuilding was destroyed. The fire was fully contained on August 29, 2018."
+                }
             ]
         },
         {

@@ -4,21 +4,26 @@ import './aboutus.css';
 /** About us section */
 const AboutUs = () => {
   return (
+    <div className="about-us-page">
     <div classname="about-us">
       <div id="left">
+      <div className="center-container">
         <div id="header">
-          <h1>Why we are doing this?</h1>
+          <h1 className="aboutTitle">Why we are doing this?</h1>
         </div>
-        <p> We believe that residents of Eastern Washington can benefit from
+        <p  className="centered-block"> We believe that residents of Eastern Washington can benefit from
           a resource like this in times of peril. Being a region particularly
           prone to wildfires, which are often unpredictable and destructive.
           In recent years, the incidence and intensity of wildfires in this region
           have been on the rise.
         </p>
       </div>
+      </div>
 
       <div id="right">
-        <h1>The team</h1>
+      <div id="header">
+          <h1 className="Team">Meet The Team</h1>
+        </div>
         <div id="allmembers">
           <div className="member">
             <img src="/images/ShahAnokhi.jpg" alt="Team Member Anokhi Shah"></img>
@@ -42,6 +47,7 @@ const AboutUs = () => {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 };

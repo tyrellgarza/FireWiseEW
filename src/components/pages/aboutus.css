@@ -1,3 +1,12 @@
+.about-us-page {
+  background: url(/public/images/aboutbackground.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+}
+
 #left {
   width: 50%;
   float: left;
@@ -10,9 +19,6 @@
 
 p {
   background-color: #f2f2f2;
-  /* grey background color */
-  width: 100%;
-  /* container spans half of the page */
   float: none;
   /* aligns container to the left */
   padding: 20px;
@@ -21,10 +27,20 @@ p {
   /* includes padding in the container's width */
   color: #000;
   /* black text color */
-  font-size: 16px;
-  /* font size of paragraph text */
+  font-size: 1rem;
   line-height: 1.5;
-  /* line height of paragraph text */
+  border-radius: 15px;
+
+}
+.center-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+}
+
+.centered-block {
+  max-width: 80%; /* Adjust this value to your liking */
 }
 
 #allmembers {
@@ -53,3 +69,26 @@ p {
   border-radius: 10%;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
 }
+
+
+.aboutTitle {
+  font-family: "Arial", sans-serif;
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 50px;
+  color: #ff6600;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.member h2 {
+  color: #ff6600;
+  text-shadow: .5px .5px .5px #000000;
+  background-color: #e3e1e1;
+  border-radius: 100px;
+}
+
+.Team {
+  color: #ff6600;
+  text-shadow: 2px 2px 4px #000000;
+}
+
