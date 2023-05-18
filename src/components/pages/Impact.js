@@ -34,19 +34,21 @@ const Impact = () => {
 
   return (
     <div className="content">
-      <h1>Impact</h1>
+      <h1 className="impacttitle">Impact</h1>
       <p> The wildfires that have taken place in Eastern Washington have created a lasting impact on surrounding areas.
         This page offers an in-depth analysis of wildfire impacts in order to better understand
         how these events affect us both short-term and long-term, as well as fundraising and donation opportunities.
       </p>
+      <img src="/images/impact.jpg" alt="Preparedness Levels" style={{ width: '500px' }}></img>
+      <h3 className="caption">South of Lind, Washington. August 2022.</h3>
       <div className="section-timeline">
-        <h1>Biggest Wildfires to Date in Eastern Washington</h1>
+        <h1 className="title2">Biggest Wildfires to Date in Eastern Washington</h1>
         <div id="timeline">
           {data && data.map((year, index) => <Year key={index} data={year} />)}
         </div>
       </div>
       <div className="section-funding">
-        <h1>Fundraising and Donation Opportunities</h1>
+        <h1 className="title3">Fundraising and Donation Opportunities</h1>
         <p> There are a number of fundraising and donation resources to help support the impact of Eastern Washington wildfires.
           Listed below are funding opportutnities to help rebuild and restore affected communities.
         </p>

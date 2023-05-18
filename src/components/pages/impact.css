@@ -61,3 +61,34 @@
 .fire p {
   margin: 5px 0;
 }
+
+.impacttitle {
+  font-family: "Arial", sans-serif;
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 50px;
+  color: #ff6600;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.title2 {
+  font-family: "Arial", sans-serif;
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 50px;
+  color: #ff6600;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.title3 {
+  font-family: "Arial", sans-serif;
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 50px;
+  color: #ff6600;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.caption {
+  color: grey;
+}
