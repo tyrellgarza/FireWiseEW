@@ -8,6 +8,7 @@
 .section-timeline,
 .section-funding {
   margin-top: 30px;
+  border-radius: 15px;
 }
 
 #timeline {
@@ -25,6 +26,7 @@
   background-color: #f8f8f8;
   border: none;
   text-align: left;
+  border-radius: 15px;
   outline: none;
   cursor: pointer;
   padding: 10px;
@@ -46,6 +48,10 @@
   height: 12px;
   background-color: #000;
   border-radius: 50%;
+}
+
+.year button::after {
+  content: ' ▼';
 }
 
 .fire {
@@ -90,5 +96,46 @@
 }
 
 .caption {
-  color: grey;
+  color: rgb(254, 252, 252);
+}
+
+.severity-high {
+  background-color: red;
+}
+
+.severity-medium {
+  background-color: orange;
+}
+
+.severity-low {
+  background-color: yellow;
+}
+
+.severity-legend span {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin-right: 5px;
+}
+
+.severity-high-legend {
+  background-color: red;
+}
+
+.severity-medium-legend {
+  background-color: orange;
+}
+
+.severity-low-legend {
+  background-color: yellow;
+}
+
+.timeline-introduction {
+  padding: 20px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+.section-funding {
+  background-color: #f0f0f0;
 }

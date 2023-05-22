@@ -1,14 +1,17 @@
 .container {
     padding: 40px;
+    border-radius: 15px;
 }
 
 h1 {
-    color: #000000;
+    font-family: "Arial", sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 50px;
+    color: #ff6600;
+    text-shadow: 2px 2px 4px #000000
 }
 
-h2 {
-    color: #333;
-}
 
 p {
     color: #666;
@@ -19,6 +22,7 @@ p {
     flex-wrap: wrap;
     justify-content: center;
     margin-bottom: 50px;
+    border-radius: 15px;
 }
 
 .brochure {
@@ -27,7 +31,7 @@ p {
     padding: 20px;
     margin: 10px;
     background-color: #f5f5f5;
-    border-radius: 5px;
+    border-radius: 15px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
@@ -42,7 +46,7 @@ p {
 .brochure a {
     display: block;
     margin-top: 10px;
-    color: #FF7F00;
+    color: #ff6600;
     text-decoration: none;
 }
 

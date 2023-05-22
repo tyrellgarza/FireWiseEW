@@ -4,8 +4,7 @@ import './aboutus.css';
 /** About us section */
 const AboutUs = () => {
   return (
-    <div className="about-us-page">
-      <div classname="about-us">
+      <div className="aboutus">
         <div id="left">
           <div className="center-container">
             <div id="header">
@@ -48,7 +47,6 @@ const AboutUs = () => {
           </div>
         </div>
       </div>
-    </div>
   );
 };
 

@@ -1,10 +1,5 @@
-.about-us-page {
-  background: url(/public/images/aboutbackground.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  height: 100vh;
+.aboutus {
+  background: #D3D3D3 url(/public/images/smoke.png) no-repeat center center / cover;
 }
 
 #left {
@@ -42,7 +37,6 @@ p {
 
 .centered-block {
   max-width: 80%;
-  /* Adjust this value to your liking */
 }
 
 #allmembers {

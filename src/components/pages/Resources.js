@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import './resources.css';
 
 const ResourcePage = () => {
@@ -59,7 +59,7 @@ const ResourcePage = () => {
         </strong> </p>
         <br></br>
 
-        <h2>National Interagency Fire Center:</h2>
+        <h1>National Interagency Fire Center:</h1>
         <a href="https://www.nifc.gov/fire-information">
           Click here for more information!
         </a> <br></br>
@@ -72,7 +72,7 @@ const ResourcePage = () => {
           suppression resource availability throughout the country.
         </p>
 
-        <h2>Washington Smoke Information:</h2>
+        <h1>Washington Smoke Information:</h1>
         <a href="https://wasmoke.blogspot.com/">
           Click here for more information!
         </a> <br></br>
@@ -83,7 +83,7 @@ const ResourcePage = () => {
           smoke forecasts, health impacts, and other useful resources.
         </p>
 
-        <h2>Ready.gov Wildfires Preparedness:</h2>
+        <h1>Ready.gov Wildfires Preparedness:</h1>
         <a href="https://www.ready.gov/wildfires">
           Click here for more information!
         </a><br></br>
@@ -95,7 +95,7 @@ const ResourcePage = () => {
           your home.
         </p>
 
-        <h2>American Red Cross Wildfire Safety:</h2>
+        <h1>American Red Cross Wildfire Safety:</h1>
         <a href="https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/wildfire.html">
           Click here for more information!
         </a> <br></br>
