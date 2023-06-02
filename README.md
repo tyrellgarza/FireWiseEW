@@ -23,6 +23,10 @@ wildfires.
 - Information of previous fires to provide insight to the problem.
 - Additional resources and fundraising opportunities to ensure better preparation for wildfires.
 
+## User Personas
+1. Connie is a 72 year-old elderly who lives a retired life with her husband in Malden, Washington, a small farming town in EW. Since the last biggest wildfire that destroyed most of Malden’s buildings and structures back in late 2020, Connie has been much more worried about her health, safety, and overall well-being. This is especially concerning since she struggles with breathing issues while battling lung cancer for the past few years. She keeps up to date weekly with FirewiseEW, mainly using the interactive map and preparedness resources, to gain more insight on what future fire may occur next and to be better prepared.
+2. Jake is a 37 year-old man who lives in Clarkston, Washington with his wife and 3 daughters. He has been working a demanding and stressful job as a firefighter for the Clarkston fire department for the past 7 years. Since he spends most of his days helping put out wildfires, Jake and the rest of his team are constantly seeking ways to learn about the wildfire impacts that occur in their surroundings, so they use FirewiseEW to gain a better in-depth analysis of these impacts.
+
 ### Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
