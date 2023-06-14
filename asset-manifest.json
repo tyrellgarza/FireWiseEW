@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/FireWiseEW/static/css/main.77758eb0.css",
+    "main.js": "/FireWiseEW/static/js/main.c16f0a07.js",
+    "static/js/787.ba64366c.chunk.js": "/FireWiseEW/static/js/787.ba64366c.chunk.js",
+    "static/media/smoke.png": "/FireWiseEW/static/media/smoke.30ef199054e862da9a05.png",
+    "static/media/442logo.png": "/FireWiseEW/static/media/442logo.688836a2039c430cd89c.png",
+    "static/media/navbarbackground.avif": "/FireWiseEW/static/media/navbarbackground.29b2cf3c992ec053829c.avif",
+    "index.html": "/FireWiseEW/index.html",
+    "main.77758eb0.css.map": "/FireWiseEW/static/css/main.77758eb0.css.map",
+    "main.c16f0a07.js.map": "/FireWiseEW/static/js/main.c16f0a07.js.map",
+    "787.ba64366c.chunk.js.map": "/FireWiseEW/static/js/787.ba64366c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.77758eb0.css",
+    "static/js/main.c16f0a07.js"
+  ]
+}
